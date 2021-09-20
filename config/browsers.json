@@ -1,0 +1,11 @@
+{
+  "chrome": {
+    "default": "80",
+    "versions": {
+      "80": {
+        "image": "selenoid/chrome:80.0",
+        "port": "4444"
+      }
+    }
+  }
+}
