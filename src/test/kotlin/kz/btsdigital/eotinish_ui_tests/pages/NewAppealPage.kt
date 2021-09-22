@@ -2,9 +2,7 @@ package kz.btsdigital.eotinish_ui_tests.pages
 
 import com.codeborne.selenide.Selenide.`$`
 import com.codeborne.selenide.Selenide.element
-import net.serenitybdd.core.annotations.findby.By
-import org.sikuli.script.Pattern
-import org.sikuli.script.Screen
+
 
 class NewAppealPage {
     val appealType_spinner =`$`("#kt_content > div > div > app-appeal-new > div.card.card-custom.gutter-b > div > form > div:nth-child(1) > div > div > app-select > div > div.pseudo-select")

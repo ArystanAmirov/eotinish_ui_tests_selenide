@@ -4,6 +4,9 @@ import com.codeborne.selenide.Configuration
 import org.junit.jupiter.api.extension.BeforeAllCallback
 import org.junit.jupiter.api.extension.ExtensionContext
 import org.junit.jupiter.api.extension.ExtensionContext.Store.CloseableResource
+import org.junit.platform.engine.support.descriptor.DirectorySource
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.remote.DesiredCapabilities
 
 class BeforeAllExtension : BeforeAllCallback, CloseableResource {
@@ -22,8 +25,8 @@ class BeforeAllExtension : BeforeAllCallback, CloseableResource {
             Configuration.browserCapabilities = capabilities
             Configuration.timeout = 1000
             Configuration.pageLoadTimeout = 30000
-
             Configuration.browser = "chrome"
+
 //            Configuration.remote = "http://localhost:4444/wd/hub"
 //            Configuration.driverManagerEnabled = false
 
