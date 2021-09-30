@@ -5,10 +5,8 @@ import com.codeborne.selenide.Selenide.open
 import com.codeborne.selenide.logevents.SelenideLogger
 import io.qameta.allure.selenide.AllureSelenide
 import kz.btsdigital.eotinish_ui_tests.BeforeAllExtension
-import kz.btsdigital.eotinish_ui_tests.actions.appointExecutor
-import kz.btsdigital.eotinish_ui_tests.actions.fillAppealZapros
-import kz.btsdigital.eotinish_ui_tests.actions.login
-import kz.btsdigital.eotinish_ui_tests.actions.sign
+import kz.btsdigital.eotinish_ui_tests.actions.*
+import kz.btsdigital.eotinish_ui_tests.lists.listOfAppealTypes
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
@@ -17,7 +15,7 @@ import org.junit.jupiter.api.extension.ExtendWith
 
 @ExtendWith(BeforeAllExtension::class)
 @BeforeAll
-fun setupAllureReports5() {
+fun setupAllureReports() {
     SelenideLogger.addListener("AllureSelenide", AllureSelenide().screenshots(true).savePageSource(true))
 }
 
@@ -27,39 +25,49 @@ class MainTest {
         Configuration.startMaximized = true
         Configuration.holdBrowserOpen = true
         open("https://backoffice.dev.eotinish.btsdapps.net/")
+        login()
     }
 
     @Test
-    fun main() {
-        for (i in 0 until 2) {
-            login()
-            fillAppealZapros()
-            sign()
-            appointExecutor()
+    fun mainTest() {
+        createAppealTest()
+        appointExecutorTest()
+        takeDecisionTest()
+        sendAppealToApproveTest()
+        approveAppealTest()
+        signAppealTest()
+    }
+
+    @Test
+    fun createAppealTest() {
+        for (appealType in listOfAppealTypes) {
+            createAppeal(appealType)
         }
+    }
+
+    @Test
+    fun appointExecutorTest() {
+        appointExecutor(9)
+    }
+
+    @Test
+    fun takeDecisionTest() {
+        takeDecision(9)
+    }
+
+    @Test
+    fun sendAppealToApproveTest() {
+        sendAppealToApprove(9)
+    }
+
+    @Test
+    fun approveAppealTest() {
+        approveAppeal(9)
+    }
+
+    @Test
+    fun signAppealTest() {
+        signAppeal(2)
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//        val options = ChromeOptions()
-//        options.addArguments("--user-data-dir=/Users/arystan/Library/Application Support/Google/Chrome")
-//        options.addArguments("--profile-directory=Default")
-//        System.setProperty("webdriver.chrome.driver", "/Users/arystan/Downloads/chromedriver")
-//        val driver = ChromeDriver(options)
-//        driver.navigate().to("https://backoffice.dev.eotinish.btsdapps.net/")

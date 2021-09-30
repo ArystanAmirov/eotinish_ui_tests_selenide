@@ -4,21 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bd6c26-2488-4857-a2d5-3911858f5bd2" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/AppointExecutor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/FillAppealZapros.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/CreatedAppealPage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/tests/MainTest.kt" afterDir="false" />
+    <list default="true" id="33bd6c26-2488-4857-a2d5-3911858f5bd2" name="Changes" comment="2">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/ApproveAppeal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/CreateAppeal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/NCALayerSign.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/SendAppealToApprove.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/SignAppeal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/TakeDecision.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/lists/AppealTypeList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/menu_navigation/Tabs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/CommonPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/InProgressAppealPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/InProgressAppealsListPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/OnAgreeingAppealPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/OnAgreeingAppealsListPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/OnSigningAppealPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/OnSigningAppealsListPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/RegisteredAppealPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/tests/Password.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/META-INF/eotinish_ui_tests.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/test/META-INF/eotinish_ui_tests.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/kz/btsdigital/eotinish_ui_tests/BeforeAllExtension$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/test/kz/btsdigital/eotinish_ui_tests/BeforeAllExtension$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/kz/btsdigital/eotinish_ui_tests/BeforeAllExtension.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/test/kz/btsdigital/eotinish_ui_tests/BeforeAllExtension.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/kz/btsdigital/eotinish_ui_tests/actions/LoginKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/test/kz/btsdigital/eotinish_ui_tests/actions/LoginKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
@@ -62,10 +72,6 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
@@ -91,17 +97,13 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/kz.btsdigital.eotinish_ui_tests.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/kz.btsdigital.eotinish_ui_tests.tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/BeforeAllExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/BeforeAllExtension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/Login.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/Sign.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/Sign.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/AppealsListPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/AppealsListPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/AppointExecutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/AppointExecutor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/FillAppealZapros.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/actions/Sign.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/AppealsListPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/RegisteredAppealsListPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/CreatedAppealPage.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/NewAppealPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/NewAppealPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/WelcomePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/pages/WelcomePage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/resources/fileOpen_form.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/resources/goToRegistry_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/resources/sign_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/resources/submitPassword_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/tests/CreateAppeal.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/tests/MainTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/kz/btsdigital/eotinish_ui_tests/tests/MainTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +128,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -160,13 +164,13 @@
       <recent name="kz.btsdigital.eotinish_ui_tests.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MainTest.main">
-    <configuration name="CreateAppeal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MainTest.mainTest">
+    <configuration name="MainTest.appointExecutorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;kz.btsdigital.eotinish_ui_tests.tests.CreateAppeal&quot;" />
+        <option name="scriptParameters" value="--tests &quot;kz.btsdigital.eotinish_ui_tests.tests.MainTest.appointExecutorTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,12 +186,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainTest.mainTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;kz.btsdigital.eotinish_ui_tests.tests.MainTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;kz.btsdigital.eotinish_ui_tests.tests.MainTest.mainTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -203,12 +207,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainTest.appointExecutor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainTest.sendAppealToApproveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;kz.btsdigital.eotinish_ui_tests.tests.MainTest.appointExecutor&quot;" />
+        <option name="scriptParameters" value="--tests &quot;kz.btsdigital.eotinish_ui_tests.tests.MainTest.sendAppealToApproveTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -224,12 +228,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainTest.createAppeal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainTest.signAppealTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;kz.btsdigital.eotinish_ui_tests.tests.MainTest.createAppeal&quot;" />
+        <option name="scriptParameters" value="--tests &quot;kz.btsdigital.eotinish_ui_tests.tests.MainTest.signAppealTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -245,12 +249,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainTest.main" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainTest.takeDecisionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;kz.btsdigital.eotinish_ui_tests.tests.MainTest.main&quot;" />
+        <option name="scriptParameters" value="--tests &quot;kz.btsdigital.eotinish_ui_tests.tests.MainTest.takeDecisionTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -268,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MainTest.main" />
-        <item itemvalue="Gradle.MainTest.createAppeal" />
-        <item itemvalue="Gradle.MainTest.appointExecutor" />
-        <item itemvalue="Gradle.MainTest" />
-        <item itemvalue="Gradle.CreateAppeal" />
+        <item itemvalue="Gradle.MainTest.mainTest" />
+        <item itemvalue="Gradle.MainTest.takeDecisionTest" />
+        <item itemvalue="Gradle.MainTest.sendAppealToApproveTest" />
+        <item itemvalue="Gradle.MainTest.appointExecutorTest" />
+        <item itemvalue="Gradle.MainTest.signAppealTest" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +297,14 @@
       <workItem from="1632169871296" duration="17829000" />
       <workItem from="1632218684025" duration="15663000" />
       <workItem from="1632285850622" duration="10219000" />
-      <workItem from="1632317627932" duration="4298000" />
+      <workItem from="1632317627932" duration="11206000" />
+      <workItem from="1632414244837" duration="13163000" />
+      <workItem from="1632881743148" duration="3048000" />
+      <workItem from="1632886882557" duration="6012000" />
+      <workItem from="1632929722483" duration="234000" />
+      <workItem from="1632930053214" duration="5481000" />
+      <workItem from="1632998507508" duration="19715000" />
+      <workItem from="1633028244525" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1632169970636</created>
@@ -302,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632169970636</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1632322091220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632322091220</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

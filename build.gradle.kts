@@ -76,3 +76,6 @@ val shadowJar by tasks.getting(ShadowJar::class) {
     }
     from(sourceSets["test"].output)
 }
+
+
+
